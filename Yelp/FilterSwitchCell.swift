@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SevenSwitch
 
 @objc protocol SwitchCellDelegate {
     optional func filterSwitchCell(switchCell: FilterSwitchCell, didChangeValue value: Bool)
